@@ -1,6 +1,6 @@
 import React from 'react'
 
-export deafult class LoginPage extends React.Component{
+export default class LoginPage extends React.Component{
 
     constructor(props){
 	super(props)
@@ -11,25 +11,25 @@ export deafult class LoginPage extends React.Component{
     }
 
     render(){
-	return{
+	return (
 	  
-  
+ 		<div> 
 		<form>
 		<label for="fname">User Name:</label>
-		<input type="text" id="uname"><br><br>
+		<input type="text" id="uname"/><br></br>
 		<label for="lname">Password:</label>
-		<input type="text" id="pswd"><br><br>
-		<input type="submit" value="Submit">
+		<input type="text" id="pswd"/><br></br>
+		<input type="submit" value="Submit"/>
 		</form>
-
+		
  
 		<a href="url">Forgot Password</a>
 
 		<a href="url">Sign Up</a>
-
+		</div>
  
 	      
-	}
+	)
     }
 
 }
