@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default class LoginPage extends React.Component{
 
@@ -25,7 +26,7 @@ export default class LoginPage extends React.Component{
  
 		<a href="url">Forgot Password</a>
 
-		<a href="url">Sign Up</a>
+		<Link to="/registration">Sign Up</Link>
 		</div>
  
 	      
