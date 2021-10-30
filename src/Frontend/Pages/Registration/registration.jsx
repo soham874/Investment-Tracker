@@ -31,8 +31,8 @@ export default class RegistrationForm extends React.Component{
 		<label for="psswd">Password:</label>
 		<input type="text" id="psswd"/><br></br>
 
-		<label for="cnfrpswd">Last Name:</label>
-		<input type="text" id="Confirm Password"/><br></br>
+		<label for="cnfrpswd">Confirm Password:</label>
+		<input type="text" id="cnfrpswd"/><br></br>
 		
 		<input type="submit" value="Sign Up"/>
 	      </form>

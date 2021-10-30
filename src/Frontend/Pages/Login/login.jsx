@@ -22,11 +22,9 @@ export default class LoginPage extends React.Component{
 		<input type="text" id="pswd"/><br></br>
 		<input type="submit" value="Submit"/>
 		</form>
-		
- 
-		<a href="url">Forgot Password</a>
 
 		<Link to="/registration">Sign Up</Link>
+    <Link to="/forgotpassword">Forgot Password</Link>
 		</div>
  
 	      
